@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;500;600;700&display=swap');
+
+:root {
+  --font-main: 'Calibre', sans-serif;
+  --font-sub: 'Noto Sans Mono', monospace;
+
+  --color-bg: #040c18;
+  --color-sub: #099fff;
+  --color-light: rgba(255, 255, 255, 0.65);
+}
+
+*::-webkit-scrollbar {
+  width: 10px !important;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid #040c18;
+  border-radius: 100vw;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: transparent rgba(255, 255, 255, 0.2);
+}
+
+@font-face {
+  font-family: 'Calibre';
+  src: url('./fonts/Calibre-Semibold.eot');
+  src: local('Calibre Semibold'), local('Calibre-Semibold'),
+    url('./fonts/Calibre-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Calibre-Semibold.woff2') format('woff2'),
+    url('./fonts/Calibre-Semibold.woff') format('woff'),
+    url('./fonts/Calibre-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Calibre';
+  src: url('./fonts/Calibre-Medium.eot');
+  src: local('Calibre Medium'), local('Calibre-Medium'),
+    url('./fonts/Calibre-Medium.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Calibre-Medium.woff2') format('woff2'),
+    url('./fonts/Calibre-Medium.woff') format('woff'),
+    url('./fonts/Calibre-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Calibre';
+  src: url('./fonts/Calibre-Bold.eot');
+  src: local('Calibre Bold'), local('Calibre-Bold'),
+    url('./fonts/Calibre-Bold.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Calibre-Bold.woff2') format('woff2'),
+    url('./fonts/Calibre-Bold.woff') format('woff'),
+    url('./fonts/Calibre-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Calibre';
+  src: url('./fonts/Calibre-Regular.eot');
+  src: local('Calibre'), local('Calibre-Regular'),
+    url('./fonts/Calibre-Regular.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Calibre-Regular.woff2') format('woff2'),
+    url('./fonts/Calibre-Regular.woff') format('woff'),
+    url('./fonts/Calibre-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

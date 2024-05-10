@@ -1,0 +1,26 @@
+.app__footer {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.app__footer a{
+  font-family: var(--font-sub);
+  color: var(--color-light);
+  font-size: 0.85rem;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.app__footer a:hover{
+  color: var(--color-sub);
+}
+
+@media screen and (min-width : 1700px) {
+  .app__footer {
+    padding: 6rem;
+  }
+  .app__footer a{
+    font-size: 1.8rem ;
+  }
+}
