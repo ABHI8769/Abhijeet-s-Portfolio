@@ -17,7 +17,7 @@ const Contact = () => {
           <p>
             I'm
             <span className="blue-text"> looking for new opportunities </span>
-            in anything involving UI design, Front-end, React development. If
+            in anything involving Full stack Development. If
             you are a recruiter or if you have any leads, please contact me. My
             inbox is always open.
           </p>
