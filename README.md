@@ -1,20 +1,65 @@
-![Portfolio website](https://user-images.githubusercontent.com/68548685/155393083-34a6ff55-9474-4f59-82d9-5d48776ed762.png)
+# Portfolio Website
 
+## Description
 
-## 🌐 Portfolio Website
+This is a portfolio website built using React, React Router, and other related technologies. It provides a platform to showcase your work, skills, and experience to potential employers or clients.
 
-This project was built using [React](https://reactjs.org/) and hosted on [Netlify](https://www.netlify.com/).
+## Features
 
-## 🛠 Installation & Set Up
+- **Responsive Design:** The website is designed to work seamlessly across various devices and screen sizes.
+- **Navigation:** Utilizes React Router for smooth navigation between different sections of the portfolio.
+- **React Icons:** Integrates React Icons to add visual flair and enhance the user experience.
+- **Testing:** Includes testing setup with Jest and React Testing Library to ensure the reliability of the codebase.
+- **Performance Monitoring:** Utilizes Web Vitals for performance monitoring and optimization.
+  
+## Prerequisites
 
-1. Install dependencies using NPM
+Before you begin, ensure you have the following installed:
 
-   ```sh
-   npm install
-   ```
+- Node.js and npm - [Download & Install Node.js](https://nodejs.org/en/download/)
 
-2. Start the development server
+## Installation
 
-   ```sh
-   npm start
-   ```
+1. Clone the repository:
+
+    ```bash
+    git clone <repository-url>
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd portfolio-website
+    ```
+
+3. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+## Usage
+
+To start the development server, run:
+
+```bash
+npm start
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
+
+To build the production-ready bundle, run:
+
+```bash
+npm run build
+```
+
+The optimized build will be stored in the `build` directory.
+
+## Testing
+
+To run tests, execute:
+
+```bash
+npm test
+```
