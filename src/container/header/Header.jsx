@@ -10,7 +10,7 @@ const Header = () => {
         <h1>Abhijeet .</h1>
         <h3>I design things for the web.</h3>
         <p className="app__header-content-p">
-          I'm a Pre-Final Year student and a Full stack Developer 
+          I'm a Final Year student and a Full stack Developer 
           Currently, I'm
           <span className="blue-text"> looking for new opportunities </span> to put my skills to best use. 
         </p>

@@ -1,6 +1,5 @@
 import { Heading } from '../../components'
-import contactImage from '../../assets/contactimage.png'
-  import { FiGithub, FiLinkedin, FiTwitter } from 'react-icons/fi'
+import { FiGithub, FiLinkedin, FiTwitter } from 'react-icons/fi'
 
 import './Contact.css'
 
@@ -45,9 +44,6 @@ const Contact = () => {
             <FiTwitter className="socials" onClick={openTwitter} />
             <FiLinkedin className="socials" onClick={openLinkedin} />
           </div>
-        </div>
-        <div className="app__contact-img">
-          <img src={contactImage} alt=" "/>
         </div>
       </div>
     </div>

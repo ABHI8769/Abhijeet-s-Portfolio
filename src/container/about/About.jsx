@@ -10,7 +10,7 @@ const About = () => {
       <div className="app__about-content">
         <div className="app__about-content-text">
           <p>
-          Hello! I'm Abhijeet Goswami, a pre-final year student pursuing a Bachelor's in Computer Science and Engineering. My journey with web development began years ago 
+          Hello! I'm Abhijeet Goswami, a Final year student pursuing a Bachelor's in Computer Science and Engineering. My journey with web development began years ago 
           when I first envisioned the potential of creating impactful websites accessible to everyone on the internet.
           Driven by my passion for innovation, I've delved into the world of coding to craft visually stunning and user-centric websites. Currently, 
           my focus lies in mastering Data Structures and Algorithms (DSA) alongside honing my skills in Full Stack Development (FSD).
